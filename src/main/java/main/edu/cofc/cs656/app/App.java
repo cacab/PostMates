@@ -1,5 +1,6 @@
 package main.edu.cofc.cs656.app;
 import model.edu.cofc.cs656.*;
+import model.edu.cofc.cs656.Menu;
 import business.edu.cofc.cs656.services.*;
 
 import java.util.ArrayList;
@@ -12,8 +13,9 @@ public class App {
 
         //TESTS FOR USER ACCOUNT
         System.out.println("*******UserAccount tests:******* \n");
-        System.out.println("The UserAccount ID is: " + UserAccount.showID() + "\n");
-        IUser.createAccount();
+        UserAccount useraccount1 = new UserAccount("John The User", "123-345-3333", "john@aol.com", "123 Bay Street, Charleston SC 29456", "password123");
+        System.out.println(useraccount1);
+        System.out.println();
 
 
         //TESTS FOR CUSTOMER
@@ -43,7 +45,8 @@ public class App {
         //TESTS FOR MENU
         System.out.println("*******Menu tests:******* \n");
         ArrayList<String> BobsBurgersFoodItems = new ArrayList<>();
-        ArrayList<Double> priceOfFoodItems = new ArrayList<>();
+        @SuppressWarnings("unused")
+		ArrayList<Double> priceOfFoodItems = new ArrayList<>();
         Menu.createFoodMenuItem(BobsBurgersFoodItems);
         System.out.println("The menu: "+ BobsBurgersFoodItems);
         Menu.updateFoodMenuItem(BobsBurgersFoodItems);

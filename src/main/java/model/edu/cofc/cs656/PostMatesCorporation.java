@@ -20,7 +20,7 @@ class PostMatesCorporation extends UserAccount implements IIncomeReportsServices
        String theCustomerID = customerID;
        boolean orderMatched;
 
-        if ( orderID.isBlank() || driverId.isBlank() || customerID.isBlank())
+        if ( orderID.isEmpty() || driverId.isEmpty() || customerID.isEmpty())
             orderMatched = false;
 
 

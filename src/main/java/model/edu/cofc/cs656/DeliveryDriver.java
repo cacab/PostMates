@@ -20,7 +20,7 @@ public class DeliveryDriver  extends DeliveryDriverAccount implements IPaymentSe
 
     private boolean verifyDriver(String driversLicenseNumber) {
 
-        if (driversLicenseNumber.isBlank()) {
+        if (driversLicenseNumber.isEmpty()) {
             return false;
         }
 
