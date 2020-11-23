@@ -74,7 +74,7 @@
 
             <classpathPrefix>lib/</classpathPrefix>
 
-      <mainClass>main.edu.cofc.cs656</mainClass>
+      <mainClass>main.edu.cofc.cs656.app.App</mainClass>
 
           </manifest>
 
