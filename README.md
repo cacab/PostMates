@@ -11,7 +11,7 @@ To run:
 <br>
 mvn package
 <br>
-java -jar target/cs656-0.0.1-SNAPSHOT.jar>
+java -jar target/cs656-0.0.1-SNAPSHOT.jar
 
 
 <br>
