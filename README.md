@@ -1,13 +1,12 @@
 
-Caitlin Cabrera <br>
+**Caitlin Cabrera <br>
 CSCI 656 Software Design and Implementation <br>
 Dr. Hashemi <br>
-Fall 2020
+Fall 2020**
 <br>
 Test class: App.java
 <br>
 This project uses Java and Maven 
-<br>
 <br>
 <br>
 **To run:** 
@@ -15,11 +14,10 @@ This project uses Java and Maven
 mvn package
 <br>
 java -jar target/cs656-0.0.1-SNAPSHOT.jar
-
 <br>
 <br>
+**Software Architecture Document**
 <br>
-Software Architecture Document
 <br>
 Architecturally-Significant Use Cases
 <br>
