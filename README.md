@@ -1,4 +1,3 @@
-**README**
 
 Caitlin Cabrera <br>
 CSCI 656 Software Design and Implementation <br>
@@ -9,17 +8,21 @@ Test class: App.java
 <br>
 This project uses Java and Maven 
 <br>
-To run: 
+<br>
+<br>
+**To run:** 
 <br>
 mvn package
 <br>
 java -jar target/cs656-0.0.1-SNAPSHOT.jar
 
-
 <br>
-This project is the implementation of the App UML Diagram that can be found here: https://drive.google.com/file/d/1cuMRKhQkwKcCHjWaiWZq8b9md28WYpHB/view?usp=sharing
-
-https://drive.google.com/file/d/16vI603xK_QtH_eRK8CgVmKO5CdEt1oVX/view?usp=sharing
+<br>
+<br>
+Software Architecture Document
+<br>
+##Intro
+Code Repository Badges ![build passing](https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/build-passing.png)
 
 ![image](https://drive.google.com/uc?export=view&id=16vI603xK_QtH_eRK8CgVmKO5CdEt1oVX)
 
