@@ -10,12 +10,11 @@ public class UserAccount implements IUser {
 
     public UserAccount(String name, String phoneNumber,  String emailAddress, String address, String password) {
 
-        this.name = name;
-        this. phoneNumber = phoneNumber;
-        this.password = password;
-        this.emailAddress = emailAddress;
-        this.address = address;
-
+        setName(name);
+        setAddress(address);
+        setEmailAddress(emailAddress);
+        setPhoneNumber(phoneNumber);
+        setPassword(password);
     }
 
     public String showID() {
@@ -69,11 +68,11 @@ public class UserAccount implements IUser {
     @Override
     public String toString() {
         return "UserAccount{" +
-                "name='" + name + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", emailAddress='" + emailAddress + '\'' +
-                ", address='" + address + '\'' +
-                ", password='" + password + '\'' +
+                "name='" + getName() + '\'' +
+                ", phoneNumber='" + getPhoneNumber() + '\'' +
+                ", emailAddress='" + getEmailAddress() + '\'' +
+                ", address='" + getAddress() + '\'' +
+                ", password='" + getPassword() + '\'' +
                 '}';
     }
 }

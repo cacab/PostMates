@@ -18,7 +18,9 @@ public interface IUser {
 
     }
 
-    static void changeEmailAddress() {
+
+
+    static void changeAddress() {
 
 
     }

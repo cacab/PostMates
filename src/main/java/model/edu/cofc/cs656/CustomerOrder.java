@@ -8,32 +8,38 @@ public class CustomerOrder {
 
     public CustomerOrder(String paymentInformation, String orderID, float orderCost) {
 
+        setOrderCost(orderCost);
+        setPaymentInformation(paymentInformation);
+        setOrderID(orderID);
 
+    }
+
+    public void setOrderCost(float orderCost) {
+        this.orderCost = orderCost;
+    }
+    public void setPaymentInformation(String paymentInformation) {
+        this.paymentInformation = paymentInformation;
+    }
+    public void setOrderID(String orderID) {
+        this.orderID = orderID;
     }
 
     public String getPaymentInformation() {
         return paymentInformation;
     }
 
-    public void setPaymentInformation(String paymentInformation) {
-        this.paymentInformation = paymentInformation;
-    }
 
     public String getOrderID() {
         return orderID;
     }
 
-    public void setOrderID(String orderID) {
-        this.orderID = orderID;
-    }
+
 
     public float getOrderCost() {
         return orderCost;
     }
 
-    public void setOrderCost(float orderCost) {
-        this.orderCost = orderCost;
-    }
+
 
     private static boolean cancelOrder(String orderID) {
 
@@ -51,7 +57,12 @@ public class CustomerOrder {
         return "The phone number is 121-444-1111";
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "CustomerOrder{" +
+                "paymentInformation='" + getPaymentInformation() + '\'' +
+                ", orderID='" + getOrderID() + '\'' +
+                ", orderCost=" + getOrderCost() +
+                '}';
+    }
 }

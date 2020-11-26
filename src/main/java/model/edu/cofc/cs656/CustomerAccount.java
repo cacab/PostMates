@@ -6,6 +6,13 @@ import business.edu.cofc.cs656.services.*;
 public class CustomerAccount extends UserAccount {
 
 
+    public CustomerAccount(String name, String phoneNumber, String emailAddress, String address, String password) {
+        super(name, phoneNumber, emailAddress, address, password);
+        setCustomerID(customerID);
+        setPaymentMethod(paymentMethod);
+
+    }
+
 
 
     public String customerID = "234-223-222";
@@ -28,12 +35,6 @@ public class CustomerAccount extends UserAccount {
 
     private String paymentMethod;
 
-
-    public CustomerAccount(String name, String phoneNumber, String emailAddress, String address, String password) {
-        super(name, phoneNumber, emailAddress, address, password);
-        this.customerID = customerID;
-        this.paymentMethod = paymentMethod;
-    }
 
     private boolean signUpAsCustomer() {
 

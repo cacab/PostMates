@@ -1,5 +1,4 @@
 package model.edu.cofc.cs656;
-import model.edu.cofc.cs656.*;
 import business.edu.cofc.cs656.services.*;
 
 public class Customer extends CustomerAccount implements IPaymentServices {
@@ -12,8 +11,10 @@ public class Customer extends CustomerAccount implements IPaymentServices {
 
     public Customer(String name, String phoneNumber, String emailAddress, String address, String password, String customerID, String paymentMethod) {
         super(name, phoneNumber, emailAddress, address, password);
-        this.name = name;
-        this.customerID= customerID;
+        setName(name);
+        setCustomerID(customerID);
+
+
     }
 
     public String getPreviousOrders() {
@@ -62,21 +63,17 @@ public class Customer extends CustomerAccount implements IPaymentServices {
     }
 
 
-    private ReviewServices reviewDriver(String driverID, String name) {
+    public static void reviewDriver() {
 
 
-        ReviewServices driverRev = new ReviewServices(5, "Great service", "333-333-333");
+        ReviewServices.addReview();
 
-        return driverRev;
+
     }
 
-    static String reviewRestaurant(String restaurantID, String name) {
+    static void reviewRestaurant(String restaurantID, String name) {
 
-        ReviewServices restaurantRev = new ReviewServices(1, "TERRIBLE", "222-322-223");
-
-        System.out.println(restaurantRev);
-
-        return restaurantRev.toString();
+        ReviewServices.addReview();
     }
 
     static boolean favoriteRestaurant(RestaurantOrBusiness restaurant) {
@@ -96,8 +93,8 @@ public class Customer extends CustomerAccount implements IPaymentServices {
     @Override
     public String toString() {
         return "Customer{" +
-                "name'" + name + '\'' +
-                "customerID'" + customerID + '\'' +
+                "name'" + getName()+ '\'' +
+                "customerID'" + getCustomerID() + '\'' +
                 "previousOrders='" + previousOrders + '\'' +
                 '}';
     }

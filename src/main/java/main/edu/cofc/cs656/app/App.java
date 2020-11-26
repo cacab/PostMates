@@ -26,8 +26,10 @@ public class App {
         System.out.println();
 
 
-
-
+        System.out.println("*******Customer order tests:******* \n");
+        CustomerOrder o = new CustomerOrder("Visa ending in 111", "77-0000-3333333", (float) 2.99);
+        System.out.println(o);
+        System.out.println();
 
 
         //TESTS FOR DELIVERY DRIVER
@@ -44,9 +46,9 @@ public class App {
 
         //TESTS FOR MENU
         System.out.println("*******Menu tests:******* \n");
+        Menu m1 = new Menu("Bean Spirit (comes with beans)",  (float) 5.89, 2, "burgers" );
+        System.out.println(m1);
         ArrayList<String> BobsBurgersFoodItems = new ArrayList<>();
-        @SuppressWarnings("unused")
-		ArrayList<Double> priceOfFoodItems = new ArrayList<>();
         Menu.createFoodMenuItem(BobsBurgersFoodItems);
         System.out.println("The menu: "+ BobsBurgersFoodItems);
         Menu.updateFoodMenuItem(BobsBurgersFoodItems);
@@ -57,6 +59,11 @@ public class App {
         RestaurantOrBusiness r1 = new RestaurantOrBusiness("Bob's Burgers", "843-843-8438", "BB@aol.com", "404 Azalea Ave", "pass123", "123-123-334444234345D", "visa 1222-222-1111", "Sally's order", false, true, "9a-3p", "333");
         System.out.println(r1);
         System.out.println();
+
+        System.out.println("*******Review Tests:******* \n");
+        Review r= new Review (5, "Great service", "333-333-333");
+        System.out.println(r);
+
 
 
 

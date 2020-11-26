@@ -13,7 +13,7 @@ public class DeliveryDriver  extends DeliveryDriverAccount implements IPaymentSe
 
     public DeliveryDriver(String name, String phoneNumber, String emailAddress, String address, String password, String driverID) {
         super(name, phoneNumber, emailAddress, address, password);
-        this.driverID = driverID;
+        setDriverID(driverID);
         this.name = name;
 
     }
@@ -113,8 +113,8 @@ public class DeliveryDriver  extends DeliveryDriverAccount implements IPaymentSe
         this.driverID = driverID;
     }
 
-    public void setDriverName() {
-        this.name = name;
+    public void setDriverName(String name) {
+        this.name = this.name;
 
     }
     public String getDriverName() {
@@ -144,6 +144,6 @@ public class DeliveryDriver  extends DeliveryDriverAccount implements IPaymentSe
                 ", onDuty=" + onDuty +
                 ", offDuty=" + offDuty +
                 ", driverHours='" + driverHours + '\'' +
-                ", driverID='" + driverID + '\'' + '}';
+                ", driverID='" + getDriverID() + '\'' + '}';
     }
 }

@@ -1,5 +1,4 @@
 package model.edu.cofc.cs656;
-import model.edu.cofc.cs656.*;
 import business.edu.cofc.cs656.services.*;
 public class RestaurantOrBusiness extends RestaurantOrBusinessAccount implements IPaymentServices {
 
@@ -8,18 +7,16 @@ public class RestaurantOrBusiness extends RestaurantOrBusinessAccount implements
     public RestaurantOrBusiness(String name, String phoneNumber, String emailAddress, String address, String password, String restaurantOrBusinessID, String paymentInformation, String customerOrders, boolean subcriptionPlan, boolean oneTimePaymentPlan, String hours, String restaurantID) {
         super(name, phoneNumber, emailAddress, address, password, restaurantOrBusinessID, paymentInformation, customerOrders, subcriptionPlan, oneTimePaymentPlan);
         this.name = name;
-        this.hours = hours;
-        this.address = address;
+        setHours(hours);
+        setAddress(address);
     }
 
 
 
-    private static ReviewServices reviewDriver(String driverID, String name) {
+    private static void reviewDriver(String driverID, String name) {
 
 
-        ReviewServices driverRev = new ReviewServices(5, "Sam the driver follows directions", "333-333-333");
-
-        return driverRev;
+        ReviewServices.addReview();
     }
 
     private static String setHours(String restaurantOrBusinessID, String hours) {
@@ -94,8 +91,8 @@ public class RestaurantOrBusiness extends RestaurantOrBusinessAccount implements
     public String toString() {
         return "RestaurantOrBusiness{" +
                 "name='" + name + '\'' +
-                "address='" + address + '\'' +
-                "hours='" + hours + '\'' +
+                "address='" + getAddress() + '\'' +
+                "hours='" + getHours() + '\'' +
                 '}';
     }
 }

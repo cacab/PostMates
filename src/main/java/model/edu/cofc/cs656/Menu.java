@@ -12,10 +12,10 @@ public class Menu {
 
 
     public Menu(String foodItem, float pricePerItem, int quantity, String cusineType) {
-        this.foodItem = foodItem;
-        this.pricePerItem = pricePerItem;
-        this.quantity = quantity;
-        this.cusineType = cusineType;
+        setCusineType(cusineType);
+        setFoodItem(foodItem);
+        setPricePerItem(pricePerItem);
+        setQuantity(quantity);
     }
 
     public static void createFoodMenuItem(ArrayList<String> foodMenu) {
@@ -119,5 +119,16 @@ public class Menu {
 
     public void setCusineType(String cusineType) {
         this.cusineType = cusineType;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "foodItem='" + getFoodItem() + '\'' +
+                ", pricePerItem=" + getPricePerItem() +
+                ", quantity=" + getQuantity() +
+                ", cusineType='" + getCusineType() + '\'' +
+                '}';
     }
 }
