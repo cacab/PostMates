@@ -28,22 +28,11 @@ mvn exec:java
 **Software Architecture Document**
 <br>
 <br>
-Revision History
-Date        Version         Description     
-<br>
-11/24/20        1.0         revised maven project     
-<br>
-11/27/20        1.1         added jersey api
-<br>
-<br>
-Introduction
-<br>
     1.1 Purpose
         This README provides the architectural scope and other details related to this project. 
 <br>
     1.2 Scope
         This Software Architecture Document provides an architectural overview of this project, which is the design and implementation of system architecture and a service-based application inspired by the application, PostMates, for Dr. Hashemi's CSIS 656, Software Design and Implementation course. 
-<br>
 <br>
     1.3 Use-Case View and Architecturally-Significant Use Cases
 <br>
