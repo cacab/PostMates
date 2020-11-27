@@ -9,11 +9,20 @@ Test class: App.java
 This project uses Java and Maven 
 <br>
 <br>
-**To run:** 
+**To run Maven project:** 
 <br>
 mvn package
 <br>
 java -jar target/cs656-0.0.1-SNAPSHOT.jar
+<br>
+<br>
+**To run API:** 
+<br>
+cd jersey-service
+<br>
+mvn clean compile 
+<br>
+mvn exec:java
 <br>
 <br>
 **Software Architecture Document**
