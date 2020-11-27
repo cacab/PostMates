@@ -5,6 +5,7 @@ business/edu/cofc/cs656/services/ReviewServices.class
 model/edu/cofc/cs656/CustomerAccount.class
 model/edu/cofc/cs656/IUser.class
 business/edu/cofc/cs656/services/PieChart.class
+business/edu/cofc/cs656/services/PostMatesServices.class
 model/edu/cofc/cs656/RestaurantOrBusiness.class
 business/edu/cofc/cs656/services/IPaymentServices.class
 business/edu/cofc/cs656/services/Chart.class
@@ -19,4 +20,5 @@ business/edu/cofc/cs656/services/BarChart.class
 model/edu/cofc/cs656/Menu.class
 business/edu/cofc/cs656/services/DeliveryDriverServices.class
 model/edu/cofc/cs656/DeliveryDriverAccount.class
+model/edu/cofc/cs656/Review.class
 model/edu/cofc/cs656/UserAccount.class

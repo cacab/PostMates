@@ -28,8 +28,30 @@ mvn exec:java
 **Software Architecture Document**
 <br>
 <br>
-Architecturally-Significant Use Cases
+Revision History
+Date        Version         Description     
 <br>
+11/24/20        1.0         revised maven project     
+<br>
+11/27/20        1.1         added jersey api
+<br>
+<br>
+Introduction
+<br>
+    1.1 Purpose
+        This README provides the architectural scope and other details related to this project. 
+<br>
+    1.2 Scope
+        This Software Architecture Document provides an architectural overview of this project, which is the design and implementation of system architecture and a service-based application inspired by the application, PostMates, for Dr. Hashemi's CSIS 656, Software Design and Implementation course. 
+<br>
+<br>
+    1.3 Use-Case View and Architecturally-Significant Use Cases
+<br>
+    The PostMates use cases are shown below:
+    <br>
+    ![image](https://drive.google.com/uc?export=view&id=15LYQWZV88BEFL9XjnsobHx2tcxY_p1Cz)
+    <br>
+
 <br>
 
 ![image](https://drive.google.com/uc?export=view&id=1hzG1qKrGha0it2P2MLZ8KWn5wjAMsc-S)
@@ -51,7 +73,10 @@ Architecturally-Significant Use Cases
 <br>
 <br>
 <br>
-Architecturally-Significant UML
+    1.4 Logical View and Architecturally-Significant UML
+    <br>
+    The logical view of this system has 2 main packages: business and model. There are interfaces implemented in each of these packages as well. The business classes contain logic that relates to object creation and manipulation for each actor, as well as interfaces related to finance services. The model classes contain POJOs, and logic related to these. 
+    <br>
 
 ![image](https://drive.google.com/uc?export=view&id=16vI603xK_QtH_eRK8CgVmKO5CdEt1oVX)
 <br>
