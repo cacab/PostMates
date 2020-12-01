@@ -34,7 +34,11 @@ mvn exec:java
     1.2 Scope
         This Software Architecture Document provides an architectural overview of this project, which is the design and implementation of system architecture and a service-based application inspired by the application, PostMates, for Dr. Hashemi's CSIS 656, Software Design and Implementation course. 
 <br>
-    1.3 Use-Case View and Architecturally-Significant Use Cases
+    1.3 References 
+        Utilized the following tutorial as well as the java API documentation https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/griz_jersey_intro/Grizzly-Jersey-Intro.html
+<br>
+    
+    1.4 Use-Case View and Architecturally-Significant Use Cases
 <br>
     The PostMates use cases are shown below:
     <br>
@@ -62,7 +66,7 @@ mvn exec:java
 <br>
 <br>
 <br>
-    1.4 Logical View and Architecturally-Significant UML
+    1.5 Logical View and Architecturally-Significant UML
     <br>
     The logical view of this system has 2 main packages: business and model. There are interfaces implemented in each of these packages as well. The business classes contain logic that relates to object creation and manipulation for each actor, as well as interfaces related to finance services. The model classes contain POJOs, and logic related to these. 
     <br>
