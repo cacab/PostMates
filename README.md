@@ -38,12 +38,12 @@ mvn exec:java
         Utilized the following tutorial as well as the java API documentation https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/griz_jersey_intro/Grizzly-Jersey-Intro.html
 <br>
     
-    1.4 Use-Case View and Architecturally-Significant Use Cases
-<br>
-    The PostMates use cases are shown below:
-    <br>
-    ![image](https://drive.google.com/uc?export=view&id=15LYQWZV88BEFL9XjnsobHx2tcxY_p1Cz)
-    <br>
+   1.4 Use-Case View and Architecturally-Significant Use Cases
+
+   The PostMates use cases are shown below:
+   <br>
+   ![image](https://drive.google.com/uc?export=view&id=15LYQWZV88BEFL9XjnsobHx2tcxY_p1Cz)
+   <br>
 
 <br>
 

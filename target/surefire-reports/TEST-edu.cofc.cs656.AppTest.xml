@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.cofc.cs656.AppTest" time="0.079" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.cofc.cs656.AppTest" time="0.051" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/caitlin/eclipse-workspace/cs656/target/surefire/surefirebooter12349476643892449193.jar /Users/caitlin/eclipse-workspace/cs656/target/surefire 2020-12-01T17-38-02_482-jvmRun1 surefire7043620859414438856tmp surefire_015781789209355261814tmp"/>
+    <property name="sun.java.command" value="/Users/caitlin/eclipse-workspace/cs656/target/surefire/surefirebooter739203051640105610.jar /Users/caitlin/eclipse-workspace/cs656/target/surefire 2020-12-01T18-10-43_797-jvmRun1 surefire5520120321716064465tmp surefire_011113891210681934248tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/caitlin/eclipse-workspace/cs656/target/test-classes:/Users/caitlin/eclipse-workspace/cs656/target/classes:/Users/caitlin/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/caitlin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/caitlin/eclipse-workspace/cs656/target/surefire/surefirebooter12349476643892449193.jar"/>
+    <property name="surefire.real.class.path" value="/Users/caitlin/eclipse-workspace/cs656/target/surefire/surefirebooter739203051640105610.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
     <property name="user.name" value="caitlin"/>

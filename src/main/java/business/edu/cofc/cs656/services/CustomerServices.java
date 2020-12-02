@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class CustomerServices {
 
 
-    public static ArrayList<RestaurantOrBusiness> seeRestaurant() {
+    public  ArrayList<RestaurantOrBusiness> seeRestaurant() {
 
         ArrayList<RestaurantOrBusiness> rest = new ArrayList<>();
 
