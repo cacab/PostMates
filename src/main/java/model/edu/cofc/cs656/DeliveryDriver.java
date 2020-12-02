@@ -5,8 +5,8 @@ public class DeliveryDriver  extends DeliveryDriverAccount implements IPaymentSe
 
     private String driversLicenseNumber;
     public String  deliveryArea;
-    public boolean onDuty;
-    public boolean offDuty;
+    public boolean setOnDutyStatus;
+    public boolean setOffDutyStatus;
     public String driverHours;
     private String driverID;
     private String name;
@@ -81,20 +81,21 @@ public class DeliveryDriver  extends DeliveryDriverAccount implements IPaymentSe
         this.deliveryArea = deliveryArea;
     }
 
-    public boolean isOnDuty() {
-        return onDuty = true;
+    public boolean setOnDutyStatus() {
+        boolean setOnDutyStatus;
+        return setOnDutyStatus = true;
     }
 
     public void setOnDuty(boolean onDuty) {
-        this.onDuty = onDuty;
+        this.setOnDutyStatus = setOnDutyStatus;
     }
 
-    public boolean isOffDuty() {
-        return offDuty;
+    public boolean setOffDutyStatus() {
+        return setOffDutyStatus;
     }
 
     public void setOffDuty(boolean offDuty) {
-        this.offDuty = offDuty;
+        this.setOffDutyStatus = setOffDutyStatus;
     }
 
     public String getDriverHours() {
@@ -141,8 +142,8 @@ public class DeliveryDriver  extends DeliveryDriverAccount implements IPaymentSe
                 "driverName=" + name + '\'' +
                 "driversLicenseNumber='" + driversLicenseNumber + '\'' +
                 ", deliveryArea='" + deliveryArea + '\'' +
-                ", onDuty=" + onDuty +
-                ", offDuty=" + offDuty +
+                ", onDuty=" + setOnDutyStatus +
+                ", offDuty=" + setOffDutyStatus +
                 ", driverHours='" + driverHours + '\'' +
                 ", driverID='" + getDriverID() + '\'' + '}';
     }

@@ -37,7 +37,7 @@ public class App {
         DeliveryDriver deliveryDriver2 = new DeliveryDriver("Tina Belcher", "333-333-3333", "tina@aol.com", "4503 2nd St", "password", "DRIVERID_+6466464");
         deliveryDriver2.setDriversLicenseNumber("222-44444-23333");
         deliveryDriver2.setDeliveryArea("Summerville");
-        deliveryDriver2.isOnDuty();
+        deliveryDriver2.setOnDutyStatus();
         deliveryDriver2.setDriverHours("10pm-2am T, H");
         System.out.println(deliveryDriver2);
         System.out.println("Directions to customer: " + DriverDirections.viewDirectionsToCustomer("ORDERID24") + "\n");
