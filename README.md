@@ -31,10 +31,12 @@ mvn exec:java
    1.1 Purpose
         This README provides the architectural scope and other details related to this project. 
 <br>
+
    1.2 Scope
         This Software Architecture Document provides an architectural overview of this project, which is the design and implementation of system architecture and a service-based application inspired by the application, PostMates, for Dr. Hashemi's CSIS 656, Software Design and Implementation course. 
         PostMates is an application avalible on mobile devices that allows a user to order food from local restaurants or busiesses and have it delivered to their location. PostMates uses delivery drivers and contracts with these local businesses. 
 <br>
+
    1.3 References 
         Utilized the following tutorial as well as the java API documentation https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/griz_jersey_intro/Grizzly-Jersey-Intro.html
 <br>
